@@ -15,6 +15,8 @@
 		1632E1CC1CA23FDD00834751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1632E1CA1CA23FDD00834751 /* LaunchScreen.storyboard */; };
 		1632E1D71CA23FDD00834751 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1632E1D61CA23FDD00834751 /* _____Tests.m */; };
 		1632E1E21CA23FDD00834751 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1632E1E11CA23FDD00834751 /* _____UITests.m */; };
+		1632E1F31CA240A000834751 /* ADPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1632E1F01CA240A000834751 /* ADPath.m */; };
+		1632E1F41CA240A000834751 /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1632E1F21CA240A000834751 /* ADView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1632E1DD1CA23FDD00834751 /* 小画板练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小画板练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1632E1E11CA23FDD00834751 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		1632E1E31CA23FDD00834751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1632E1EF1CA240A000834751 /* ADPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ADPath\U0010.h"; sourceTree = "<group>"; };
+		1632E1F01CA240A000834751 /* ADPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ADPath\U0010.m"; sourceTree = "<group>"; };
+		1632E1F11CA240A000834751 /* ADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADView.h; sourceTree = "<group>"; };
+		1632E1F21CA240A000834751 /* ADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,10 @@
 				1632E1C51CA23FDD00834751 /* Main.storyboard */,
 				1632E1C81CA23FDD00834751 /* Assets.xcassets */,
 				1632E1CA1CA23FDD00834751 /* LaunchScreen.storyboard */,
+				1632E1EF1CA240A000834751 /* ADPath.h */,
+				1632E1F01CA240A000834751 /* ADPath.m */,
+				1632E1F11CA240A000834751 /* ADView.h */,
+				1632E1F21CA240A000834751 /* ADView.m */,
 				1632E1CD1CA23FDD00834751 /* Info.plist */,
 				1632E1BC1CA23FDD00834751 /* Supporting Files */,
 			);
@@ -272,7 +282,9 @@
 			files = (
 				1632E1C41CA23FDD00834751 /* ViewController.m in Sources */,
 				1632E1C11CA23FDD00834751 /* AppDelegate.m in Sources */,
+				1632E1F31CA240A000834751 /* ADPath.m in Sources */,
 				1632E1BE1CA23FDD00834751 /* main.m in Sources */,
+				1632E1F41CA240A000834751 /* ADView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
